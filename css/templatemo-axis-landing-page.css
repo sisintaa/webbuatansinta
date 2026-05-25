@@ -301,7 +301,10 @@ https://templatemo.com/tm-619-axis-industrial
 .login-status{
     display: flex;
     align-items: center;
-    gap: 5px;
-    position: relative;
-    top: 8px;
+    gap: 8px;
+    margin-left: 20px;
+}
+
+.login-status p{
+    margin: 0;
 }
