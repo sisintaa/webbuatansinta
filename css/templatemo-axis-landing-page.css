@@ -298,6 +298,11 @@ https://templatemo.com/tm-619-axis-industrial
     .btn { width: 100%; }
 }
 
+.header__nav{
+    display: flex;
+    align-items: center;
+}
+
 .login-status{
     display: flex;
     align-items: center;
