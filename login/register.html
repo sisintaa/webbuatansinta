@@ -16,17 +16,22 @@
       <div class="login">
          <img src="assets/img/login-bg.png" alt="image" class="login__bg">
 
-         <form action="" class="login__form">
-            <h1 class="login__title">Login</h1>
+         <form id="registerForm" action="" class="login__form">
+            <h1 class="login__title">Register</h1>
 
             <div class="login__inputs">
                <div class="login__box">
-                  <input type="email" placeholder="Email ID" required class="login__input">
+                  <input type="text" id="username" placeholder="nama pengguna" required class="login__input">
+                  <i class="ri-mail-fill"></i>
+               </div>
+
+                <div class="login__box">
+                  <input type="email" id="email" placeholder="Email ID" required class="login__input">
                   <i class="ri-mail-fill"></i>
                </div>
 
                <div class="login__box">
-                  <input type="password" placeholder="Password" required class="login__input">
+                  <input type="password" id="password" placeholder="Password" required class="login__input">
                   <i class="ri-lock-2-fill"></i>
                </div>
             </div>
@@ -47,5 +52,7 @@
             </div>
          </form>
       </div>
+      <p id="message"></p>
+      <script src="js/register.js" defer></script>
    </body>
 </html>
