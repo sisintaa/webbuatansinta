@@ -321,7 +321,9 @@ https://templatemo.com/tm-619-axis-industrial
     overflow:hidden;
     border:6px solid #000;
     background:#000;
-    height:340px;
+
+    aspect-ratio:16/9;
+
     box-shadow:12px 12px 0px #000;
 }
 
@@ -344,13 +346,16 @@ https://templatemo.com/tm-619-axis-industrial
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
-    padding:1.5rem;
+
+    padding:1rem;
+
     background:linear-gradient(
         to top,
         rgba(0,0,0,.95) 8%,
         rgba(0,0,0,.35) 45%,
         transparent 70%
     );
+
     color:#fff;
 }
 
@@ -358,7 +363,7 @@ https://templatemo.com/tm-619-axis-industrial
     font-size:.7rem;
     letter-spacing:.18em;
     text-transform:uppercase;
-    margin-bottom:1rem;
+    margin-bottom:.8rem;
     opacity:.9;
     position:relative;
 }
@@ -375,22 +380,26 @@ https://templatemo.com/tm-619-axis-industrial
 
 .movie-overlay h3{
     font-family:'Space Grotesk', sans-serif;
-    font-size:3rem;
+
+    font-size:clamp(2rem, 4vw, 3rem);
+
     line-height:.9;
     text-transform:uppercase;
-    margin-bottom:.8rem;
+    margin-bottom:.5rem;
 }
 
 .movie-overlay p{
-    font-size:.9rem;
+    font-size:.75rem;
     opacity:.9;
     text-transform:uppercase;
+    line-height:1.5;
 }
 
 .movie-card:nth-child(2){
     box-shadow:12px 12px 0px #ff5a1f;
 }
 
+/* Responsive */
 @media(max-width:1024px){
 
     .details__left{
@@ -407,14 +416,6 @@ https://templatemo.com/tm-619-axis-industrial
 
     .details__right{
         grid-template-columns:1fr;
-    }
-
-    .movie-card{
-        height:300px;
-    }
-
-    .movie-overlay h3{
-        font-size:2.2rem;
     }
 
 }
