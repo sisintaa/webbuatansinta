@@ -301,15 +301,28 @@ https://templatemo.com/tm-619-axis-industrial
 .header__nav{
     display: flex;
     align-items: center;
+    gap: 18px;
+    flex-wrap: nowrap;
 }
 
-.login-status{
+.header__nav a{
     display: flex;
     align-items: center;
-    gap: 8px;
-    margin-left: 20px;
 }
 
-.login-status p{
+#userInfo{
     margin: 0;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+#authArea{
+    display: flex;
+    align-items: center;
+}
+
+#authArea button{
+    display: inline-flex;
+    align-items: center;
 }
