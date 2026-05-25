@@ -298,31 +298,9 @@ https://templatemo.com/tm-619-axis-industrial
     .btn { width: 100%; }
 }
 
-.header__nav{
+.login-status {
     display: flex;
     align-items: center;
-    gap: 18px;
-    flex-wrap: nowrap;
-}
-
-.header__nav a{
-    display: flex;
-    align-items: center;
-}
-
-#userInfo{
-    margin: 0;
-    display: flex;
-    align-items: center;
-    white-space: nowrap;
-}
-
-#authArea{
-    display: flex;
-    align-items: center;
-}
-
-#authArea button{
-    display: inline-flex;
-    align-items: center;
+    height: 100%;
+    margin-top: 8px; 
 }
