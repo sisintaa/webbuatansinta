@@ -297,3 +297,32 @@ https://templatemo.com/tm-619-axis-industrial
     .hero__actions { flex-direction: column; width: 100%; }
     .btn { width: 100%; }
 }
+
+/* About / Template Info */
+.about {
+    padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 4rem);
+    border-bottom: var(--border);
+    background: var(--surface);
+}
+
+.about__inner { max-width: 760px; margin: 0 auto; text-align: center; }
+.about__text { font-size: var(--fs-data); line-height: 2; opacity: 0.6; margin-bottom: 1.5rem; }
+.about__links { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
+
+@media (max-width: 1024px) {
+    .bento-card--wide,
+    .bento-card--mid,
+    .bento-card--narrow { grid-column: span 6; }
+    .stack__card-left  { grid-column: span 3; }
+    .stack__card-right { grid-column: span 9; }
+}
+
+@media (max-width: 768px) {
+    .bento-card--wide,
+    .bento-card--mid,
+    .bento-card--narrow { grid-column: 1 / -1; }
+    .bento-card--tall { grid-row: span 1; }
+    .stack__card { grid-template-columns: 1fr; position: relative; top: auto !important; }
+    .stack__card-left, .stack__card-right { grid-column: 1 / -1; }
+    .stack__card-step { font-size: 4rem; }
+}
