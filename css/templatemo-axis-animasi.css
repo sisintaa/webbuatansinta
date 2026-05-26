@@ -267,37 +267,6 @@ https://templatemo.com/tm-619-axis-industrial
 .log-sys  { color: var(--safety);     border-color: rgba(255,62,0,0.3); }
 .log__entry-msg { color: rgba(255,255,255,0.5); }
 
-/* About paragraph */
-.about {
-    padding: clamp(2.5rem, 5vw, 4rem) clamp(1rem, 4vw, 4rem);
-    border-bottom: var(--border);
-    background: var(--surface);
-}
-
-.about__inner { max-width: 760px; margin: 0 auto; text-align: center; }
-.about__text { font-size: var(--fs-data); line-height: 2; opacity: 0.6; margin-bottom: 1.5rem; }
-.about__links { display: flex; gap: 0.6rem; justify-content: center; flex-wrap: wrap; }
-
-/* Responsive */
-@media (max-width: 1024px) {
-    .spec-grid { grid-template-columns: repeat(2, 1fr); }
-    .spec-cell:nth-child(4n) { border-right: var(--border); }
-    .spec-cell:nth-child(2n) { border-right: none; }
-    .spec-cell:nth-last-child(-n+4) { border-bottom: var(--border); }
-    .spec-cell:nth-last-child(-n+2) { border-bottom: none; }
-    .details__left { grid-column: span 12; }
-    .details__right { grid-column: span 12; }
-}
-
-@media (max-width: 768px) {
-    .spec-grid { grid-template-columns: 1fr; }
-    .spec-cell, .spec-cell:nth-child(4n), .spec-cell:nth-child(2n) { border-right: none; border-bottom: var(--border); }
-    .spec-cell:last-child { border-bottom: none; }
-    .details__right { grid-template-columns: 1fr; }
-    .hero__actions { flex-direction: column; width: 100%; }
-    .btn { width: 100%; }
-}
-
 /* About / Template Info */
 .about {
     padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 4vw, 4rem);
