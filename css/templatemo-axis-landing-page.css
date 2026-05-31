@@ -312,10 +312,10 @@ https://templatemo.com/tm-619-axis-industrial
 .movie-card{
     position:relative;
     overflow:hidden;
-    border:6px solid #000;
+    border:5px solid #000;
     background:#000;
-    height:340px;
-    box-shadow:12px 12px 0px #000;
+    height:270px;
+    box-shadow:10px 10px 0px #000;
 }
 
 .movie-card img{
