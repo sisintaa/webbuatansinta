@@ -306,16 +306,18 @@ https://templatemo.com/tm-619-axis-industrial
     grid-column: span 7;
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:2rem;
+    gap:1.5rem;
+    align-content:start;
 }
 
 .movie-card{
-    position:relative;
-    overflow:hidden;
-    border:5px solid #000;
-    background:#000;
-    height:270px;
-    box-shadow:10px 10px 0px #000;
+   position:relative;
+   overflow:hidden;
+   width:100%;
+   aspect-ratio:16/10;
+   border:6px solid #000;
+   background:#000;
+   box-shadow:10px 10px 0 #000;
 }
 
 .movie-card img{
