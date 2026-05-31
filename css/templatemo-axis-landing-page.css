@@ -448,11 +448,9 @@ https://templatemo.com/tm-619-axis-industrial
 }
 
 .stack__card:nth-child(2) { top: 110px; background: #F5F5F0; }
-.stack__card:nth-child(3) { top: 140px; background: var(--ink); color: var(--base); box-shadow: var(--shadow-safety); }
 .stack__card:nth-child(4) { top: 170px; background: #F0F0EB; }
 
 .stack__card:hover { transform: translate(-4px, -4px); box-shadow: 12px 12px 0px var(--ink); }
-.stack__card:nth-child(3):hover { box-shadow: 12px 12px 0px var(--safety); }
 
 .stack__card-left  { grid-column: span 4; }
 .stack__card-right { grid-column: span 8; }
@@ -469,6 +467,3 @@ https://templatemo.com/tm-619-axis-industrial
 .stack__card-title { font-size: var(--fs-h2); margin-bottom: 1rem; }
 .stack__card-text { font-size: var(--fs-data); line-height: 1.8; opacity: 0.7; max-width: 520px; }
 .stack__card-tags { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1.2rem; }
-
-.stack__card:nth-child(3) .tag { border-color: var(--base); color: var(--base); background: transparent; }
-.stack__card:nth-child(3) .tag--filled { background: var(--safety); border-color: var(--safety); }
